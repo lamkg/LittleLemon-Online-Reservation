@@ -1,8 +1,5 @@
-# React + Vite
+#Little Lemon Online Reservation Web Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created during Meta's Coursera Front-End Development course. This website was the culmuniation of the Front-End Development Track.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website showcased implementing a booking application on the Little Lemon Website. This was created with React Components to show an understanding of utilizing React for creating the website. This also features utilzing API calls.
