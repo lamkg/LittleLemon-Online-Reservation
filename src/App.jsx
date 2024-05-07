@@ -5,14 +5,19 @@ import MainPage from "./components/MainPage"
 import Menu from './components/Menu';
 import Footer from './components/Footer';
 import { Helmet } from 'react-helmet';
+import Logo from './assets/Logo.svg';
 
 function App() {
   return (
     <>
       <Helmet>
-        <title>My App</title>
-        <meta name="description" content="This is a description of my app" />
-        {/* Add more meta tags, links, scripts, etc. */}
+        <meta name="og:title" content="Little Lemon Rstaurant Online Reservation Page" />
+        <meta name="og:description" content="A reservation page for the Little Lemon Restaurant" />
+        <meta name='og:image' content={Logo}/>
+        <meta name="language" content="english" />
+        <meta name="rating" content="safe for kids" />
+        <meta name="format-detection" content="telephone=yes" />
+        <meta name="HandheldFriendly" content="true" />
       </Helmet>
       <Nav />
       <MainPage />
