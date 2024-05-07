@@ -46,6 +46,7 @@ const BookingForm = (props) => {
                 <option value="">Select an Option</option>
                 <option>Birthday</option>
                 <option>Anniversary</option>
+                <option>Other</option>
               </select>
             </div>
             <div className="btnReceive">
