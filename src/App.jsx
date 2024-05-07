@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Main />
       <Footer />
     </>
   );
