@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 const Menu = () => {
     
 const handleOrder = (id) => {
-    console.log(id);
+    // console.log(id);
 
     const swalWithBootstrapButtons = Swal.mixin({
         customClass: {
@@ -17,7 +17,7 @@ const handleOrder = (id) => {
       
       swalWithBootstrapButtons.fire({
         title: 'Do you want to confirm order?',
-        text: "You won't be able to revert this!",
+        text: "You won't be able to reverse this!",
         icon: 'warning',
         showCancelButton: false,
         confirmButtonText: 'Yes, order it!',
@@ -25,7 +25,7 @@ const handleOrder = (id) => {
       }).then((result) => {
         if (result.isConfirmed) {
           swalWithBootstrapButtons.fire(
-            'Orderd!',
+            'Ordered!',
             'Your order has been confirmed.',
             'success'
           )
