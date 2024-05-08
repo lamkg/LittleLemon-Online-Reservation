@@ -10,7 +10,8 @@ const ConfirmedBooking = ({ formData }) => {
           Booking has been <span>confirmed!</span>
         </h1>
         <h3>Confirmation email has been sent to {email}</h3>
-        <p>There are {guests} guests for {times}</p>
+        <h3>There are {guests} guests for {times}</h3>
+        <p>Please contact CS or call if there are any changes that need to be made.</p>
       </div>
     </div>
   );
