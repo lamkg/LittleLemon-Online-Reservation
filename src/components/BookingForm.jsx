@@ -3,6 +3,7 @@ import { useState } from "react";
 
 
 
+
 const BookingForm = (props) => {
 
   const [occasion, setOccasion] = useState("");
@@ -10,6 +11,7 @@ const BookingForm = (props) => {
   const [date, setDate] = useState("");
   const [times, setTimes] = useState("")
   const [email, setEmail] = useState("");
+
 
   const handleSumbit = (e) => {
     e.preventDefault();
@@ -21,10 +23,7 @@ const BookingForm = (props) => {
     props.dispatch(e);
   }
 
-  const validateEmail = (email) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-  }
+
 
   return (
     <header>
